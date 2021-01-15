@@ -13,4 +13,4 @@
 # Modify default IP
 sed -i 's/10.0.0.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 git clone https://github.com/kenzok8/openwrt-packages package/openwrt-package
-git clone https://github.com/kenzok8/smal package/small
+git clone https://github.com/kenzok8/small package/small
